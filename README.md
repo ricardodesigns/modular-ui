@@ -10,5 +10,4 @@ The css folder contains de css file with all the main variables, layout ajustmen
 
 ---
 
-## 📁 Project Structure
 
