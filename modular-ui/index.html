@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modular Components UI</title>
+  <link rel="stylesheet" href="css/variables.css" />
+  <link rel="stylesheet" href="components/card/card.css" />
+  <link rel="stylesheet" href="components/dropdown/dropdown.css" />
+  <link rel="stylesheet" href="components/button/button.css" />
+</head>
+<body style="display: flex; flex-direction: column; align-items: center; gap: 30px; padding: 40px; background-color: var(--body-bg);">
+ 
+  <!-- Card -->
+  <div class="card">
+    <div class="card-header">Ricardo Oliveira</div>
+    <div class="card-body">
+      <p><strong>Position:</strong> Product Designer</p>
+      <p><strong>Location:</strong> Lisboa, Portugal</p>
+      <p><strong>Skills:</strong> Product Design, UX/UI, HTML & CSS</p>
+      <p><strong>Bio:</strong> Enthusiastic designer with a passion for creating user-friendly interfaces. Enjoys collaborating on innovative projects and continuously learning new technologies.</p>
+    </div>
+  </div>
+
+  <!-- Dropdown -->
+  <div class="dropdown">
+    <button class="dropdown-btn">
+      Select Option
+      <span class="dropdown-icon">▼</span>
+    </button>
+    <div class="dropdown-content">
+      <label class="dropdown-item" for="option1">option1</label>
+      <label class="dropdown-item" for="option2">option2</label>
+      <label class="dropdown-item" for="option3">option3</label>
+    </div>
+  </div>
+
+  <!-- Button -->
+  <button class="btn" disabled>I am not active</button>
+  <!-- Button -->
+  <button class="btn" >Cick here</button>
+  
+</body>
+</html>

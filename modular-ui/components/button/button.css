@@ -1,0 +1,29 @@
+
+.btn {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: var(--btn-text-color);
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color var(--transition-speed) ease;
+}
+
+.btn:active {
+  background-color: var(--primary-active);
+}
+
+.btn:hover {
+  background-color: var(--primary-hover);
+}
+
+.btn:focus {
+  outline: 2px solid var(--primary-focus);
+}
+
+.btn:disabled {
+  background-color: var(--disabled-color);
+  color: var(--btn-disabled-text-color);
+  cursor: not-allowed;
+}

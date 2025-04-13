@@ -1,0 +1,63 @@
+
+:root {
+    /* main colors */
+    --primary-color: #007bff;
+    --primary-hover: #0056b3;
+    --primary-focus: #ffcc00;
+    --primary-active: #ffcc00;
+    --disabled-color: #cccccc;
+    --btn-text-color: #ffffff;
+    --btn-disabled-text-color: #666666;
+    /* Card */
+    --card-bg: #ffffff;
+    --card-header-bg: var(--primary-color);
+    --card-text-color: #333333;
+    /* Drop-down */
+    --dropdown-bg: #ffffff;
+    --dropdown-hover: #f1f1f1;
+    --dropdown-border-color: #0056b3;
+    --dropdown-text-color: #333333;
+    /* Body */
+    --body-bg: #f4f4f4;
+
+    --border-radius: 5px;
+    --transition-speed: 0.3s;
+}
+
+/* Layout adjustments */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--body-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    gap: 30px;
+    color: var(--card-text-color);
+}
+
+
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .card {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .btn {
+        width: 100%;
+    }
+
+    .dropdown {
+        width: 100%;
+    }
+}
